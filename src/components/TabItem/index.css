@@ -1,0 +1,38 @@
+.listItem {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.tabBtn {
+  background: none;
+  outline: none;
+  border: none;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.activeTab {
+  border-bottom: 2px solid #fec653;
+  padding-bottom: 4px;
+  color: #fec653;
+}
+
+@media (max-width: 575px) {
+  .tabBtn {
+    font-size: 15px;
+  }
+}
+
+@media ((min-width: 576px) and (max-width: 767px)) {
+  .tabBtn {
+    font-size: 21px;
+  }
+}
+
+@media (min-width: 768px) {
+  .tabBtn {
+    font-size: 24px;
+  }
+}

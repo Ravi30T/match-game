@@ -1,0 +1,28 @@
+.imageListItem {
+  list-style-type: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.imgBtn {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.thumbnailImg {
+  width: 120px;
+}
+
+@media (max-width: 575px) {
+  .thumbnailImg {
+    width: 60px;
+  }
+}
+
+@media ((min-width: 576px) and (max-width: 767px)) {
+  .thumbnailImg {
+    width: 70px;
+  }
+}

@@ -1,0 +1,131 @@
+.smResultImgContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+
+  background-size: cover;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-position: center;
+}
+
+.smGameResult {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.lgGameResult {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.yourScoreHeading {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.score {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.trophyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resetBtn {
+  background-color: #cf60c8;
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding: 10px;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.resetImg {
+  padding-right: 3px;
+}
+
+@media (max-width: 575px) {
+  .smResultImgContainer {
+    min-height: 370px;
+    min-width: 230px;
+  }
+
+  .lgResultImgContainer {
+    display: none;
+  }
+
+  .trophyContainer {
+    margin-top: 100px;
+  }
+
+  .trophyImg {
+    height: 100px;
+  }
+}
+
+@media ((min-width: 576px) and (max-width: 767px)) {
+  .smResultImgContainer {
+    height: 620px;
+    width: 380px;
+  }
+
+  .lgResultImgContainer {
+    display: none;
+  }
+
+  .trophyContainer {
+    margin-top: 150px;
+  }
+
+  .trophyImg {
+    height: 150px;
+  }
+}
+
+@media (min-width: 768px) {
+  .smResultImgContainer {
+    display: none;
+  }
+
+  .lgResultImgContainer {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+    height: 730px;
+    width: 460px;
+
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-position: center;
+  }
+
+  .trophyContainer {
+    margin-top: 220px;
+  }
+
+  .trophyImg {
+    height: 200px;
+  }
+
+  .yourScoreHeading {
+    font-size: 20px;
+  }
+
+  .score {
+    font-size: 20px;
+  }
+}
